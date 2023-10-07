@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.price-cards-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+
+}
+
+.price-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 30%;
+    height: 40%;
+    text-align: center;
+    margin: 10px;
+    background-color: white
+}
+
+.price-card-header {
+    margin-bottom: 10px;
+}
+
+.price-card-header p {
+    font-family: bold;
+}
+
+
+
+.features-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features-list li {
+    margin-bottom: 10px;
+
+}
+
+.buy-button {
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 15%;
+    /* This makes the button spherical */
+    background-color: #008CBA;
+    color: white;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: #005F6B;
+}
+
+.right-symbol {
+    color: green;
+    /* Change color if needed */
+    margin-right: 10px;
+}
+
+.wrong-symbol {
+    color: red;
+    /
+}
+
+.wrong-symbol {
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+.wrong {
+    color: rgba(0, 0, 0, 0.5);
+}
